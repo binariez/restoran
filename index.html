@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Warung Kuliner</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">NUSAKU</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#">Beranda</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Tentang</a></li>
+        <li><a href="#" class="ctn">Kontak</a></li>
+      </ul>
+      <img
+        src="https://user-images.githubusercontent.com/12056958/175833067-df81d88f-9712-4649-b42f-35264361e327.png"
+        alt=""
+        class="menu-btn"
+      />
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <h2>Cita Rasa Nenek Moyang</h2>
+        <div class="line"></div>
+        <h1>Kuliner Nusantara</h1>
+        <a href="#" class="ctn">Pelajari Lebih Lanjut</a>
+      </div>
+    </header>
+
+    <section class="menu">
+      <div class="title">
+        <h1>Menu</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img
+            src="https://user-images.githubusercontent.com/12056958/175833084-4a7fcb78-dab4-4c44-8bae-f4a8c92d2143.png"
+            alt=""
+          />
+          <h4>Rendang</h4>
+          <p>
+            Rendang atau randang dalam bahasa Minangkabau adalah Masakan
+            Minangkabau yang berbahan dasar daging yang berasal dari Sumatera
+            Barat, Indonesia. Masakan ini dihasilkan dari proses memasak suhu
+            rendah dalam waktu lama dengan menggunakan aneka rempah-rempah dan
+            santan.
+          </p>
+          <a href="#" class="ctn">Order</a>
+        </div>
+        <div class="col">
+          <img
+            src="https://user-images.githubusercontent.com/12056958/175833099-412957f2-a583-4c84-8f6c-f821b34e3641.png"
+            alt=""
+          />
+          <h4>Sate</h4>
+          <p>
+            Sate atau satai adalah makanan yang terbuat dari daging yang
+            dipotong kecil-kecil dan ditusuk sedemikian rupa dengan tusukan lidi
+            tulang daun kelapa atau bambu, kemudian dipanggang menggunakan bara
+            arang kayu. Sate disajikan dengan berbagai macam bumbu yang
+            bergantung pada variasi resep sate.
+          </p>
+          <a href="#" class="ctn">Order</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img
+            src="https://user-images.githubusercontent.com/12056958/175833110-50798937-610a-47fc-a9b6-67261802bb88.png"
+            alt=""
+          />
+          <h4>Gudeg</h4>
+          <p>
+            Gudeg adalah hidangan khas Provinsi Yogyakarta dan Jawa Tengah yang
+            terbuat dari nangka muda yang dimasak dengan santan. Perlu waktu
+            berjam-jam untuk membuat hidangan ini. Warna coklat biasanya
+            dihasilkan oleh daun jati yang dimasak bersamaan. Gudeg biasanya
+            dimakan dengan nasi dan disajikan dengan kuah santan kental (areh),
+            ayam kampung, telur, tempe, tahu dan sambal goreng krecek.
+          </p>
+          <a href="#" class="ctn">Order</a>
+        </div>
+
+        <div class="col">
+          <img
+            src="https://user-images.githubusercontent.com/12056958/175833121-0ffac292-6b57-4f14-b4f8-641e346d2bd3.png"
+            alt=""
+          />
+          <h4>Gado-gado</h4>
+          <p>
+            Gado-gado adalah makanan khas Jakarta berisi sayur-sayuran yang
+            direbus, irisan telur dan tahu, serta ditaburi bawang goreng dan
+            kerupuk. Sayur-sayuran ditambahkan dengan bumbu kacang atau saus
+            dari kacang tanah yang telah dihaluskan yang kemudian diaduk merata.
+          </p>
+          <a href="#" class="ctn">Order</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="tentang">
+      <div class="tentang-kami">
+        <h1>Tentang Kami</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          deserunt ullam commodi nisi ab quod? Quibusdam molestiae, fugit
+          explicabo maxime cum eaque? Voluptas, perferendis unde.
+        </p>
+        <a href="#" class="ctn">Selengkapnya</a>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>
+        Jl. Pasir Kaliki No. 12A, Pasir Kaliki, Kec. Cicendo, Kota Bandung, Jawa
+        Barat 40173 | Telp: (022) 20569290
+      </p>
+      <p>Copyright &copy; 2022 by Azhar</p>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
